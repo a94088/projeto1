@@ -1,2 +1,13 @@
-def get_int(prompt):
-    return int(input(prompt))
+# utils.py
+
+def get_int(msg):
+    i = input(msg)
+    i = int(i)
+    return i
+
+# get_float.py
+
+def get_float(msg):
+    x = input(msg)
+    x = float(x)
+    return x
